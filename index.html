@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dr. Sarah Chen - Premium Healthcare</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@latest/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <span class="logo-icon">⚕️</span>
+                <span class="logo-text">Dr. Sarah Chen</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#testimonials" class="nav-link">Testimonials</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-background">
+            <canvas id="canvas3d"></canvas>
+        </div>
+        
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">
+                    <span class="title-word">Advanced</span>
+                    <span class="title-word">Healthcare</span>
+                    <span class="title-word">Solutions</span>
+                </h1>
+                <p class="hero-subtitle">Experience medicine reimagined with cutting-edge technology and compassionate care</p>
+                <button class="cta-button">Schedule Consultation</button>
+            </div>
+        </div>
+
+        <div class="scroll-indicator">
+            <span>Scroll to explore</span>
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Dr. Sarah Chen</h2>
+            
+            <div class="about-grid">
+                <!-- 3D Avatar Card -->
+                <div class="avatar-card glass-card">
+                    <div class="avatar-container">
+                        <img src="gallery/image.png" alt="Dr. Sarah Chen" class="doctor-photo">
+                    </div>
+                    <h3>Board Certified</h3>
+                    <p>15+ Years of Excellence</p>
+                </div>
+
+                <!-- Specializations -->
+                <div class="specializations glass-card">
+                    <h3>Specializations</h3>
+                    <div class="spec-grid">
+                        <div class="spec-item">
+                            <div class="spec-icon"><i class="bi bi-heart-pulse"></i></div>
+                            <span>Cardiology</span>
+                        </div>
+                        <div class="spec-item">
+                            <div class="spec-icon"><i class="bi bi-diagram-3"></i></div>
+                            <span>Genetics</span>
+                        </div>
+                        <div class="spec-item">
+                            <div class="spec-icon"><i class="bi bi-beaker"></i></div>
+                            <span>Research</span>
+                        </div>
+                        <div class="spec-item">
+                            <div class="spec-icon"><i class="bi bi-shield-check"></i></div>
+                            <span>Preventive Care</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Bio -->
+                <div class="bio-card glass-card">
+                    <h3>Professional Background</h3>
+                    <p>Dr. Sarah Chen is a renowned cardiologist with a passion for integrating advanced technology into patient care. With degrees from Stanford and Johns Hopkins, she leads innovative research in preventive cardiology and personalized medicine.</p>
+                    <div class="credentials">
+                        <span class="credential-badge">MD, Stanford</span>
+                        <span class="credential-badge">Fellowship, Johns Hopkins</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <h2 class="section-title">Patient Testimonials</h2>
+            
+            <div class="testimonials-grid">
+                <div class="testimonial-card glass-card">
+                    <div class="testimonial-header">
+                        <div class="testimonial-avatar-img patient-1">
+                            <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                                <defs>
+                                    <linearGradient id="skin1" x1="0%" y1="0%" x2="0%" y2="100%">
+                                        <stop offset="0%" style="stop-color:#f4a460;stop-opacity:1" />
+                                        <stop offset="100%" style="stop-color:#d2691e;stop-opacity:1" />
+                                    </linearGradient>
+                                </defs>
+                                <circle cx="50" cy="50" r="45" fill="url(#skin1)"/>
+                                <circle cx="50" cy="50" r="45" fill="none" stroke="rgba(0, 212, 255, 0.3)" stroke-width="2"/>
+                                <path d="M 10 40 Q 10 15 50 15 Q 90 15 90 40" fill="#2c1810"/>
+                                <circle cx="38" cy="45" r="4" fill="#ffffff"/>
+                                <circle cx="62" cy="45" r="4" fill="#ffffff"/>
+                                <circle cx="38" cy="45" r="2" fill="#000000"/>
+                                <circle cx="62" cy="45" r="2" fill="#000000"/>
+                                <path d="M 40 60 Q 50 68 60 60" stroke="#c85a54" stroke-width="2" fill="none" stroke-linecap="round"/>
+                            </svg>
+                        </div>
+                        <div class="testimonial-info">
+                            <h4>James Mitchell</h4>
+                            <p class="testimonial-role">Patient</p>
+                        </div>
+                    </div>
+                    <div class="stars">★★★★★</div>
+                    <p class="testimonial-text">"Dr. Chen's approach to my cardiac care was transformative. Her use of advanced diagnostics caught issues early, and her personalized treatment plan has given me my life back."</p>
+                </div>
+
+                <div class="testimonial-card glass-card">
+                    <div class="testimonial-header">
+                        <div class="testimonial-avatar-img patient-2">
+                            <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                                <defs>
+                                    <linearGradient id="skin2" x1="0%" y1="0%" x2="0%" y2="100%">
+                                        <stop offset="0%" style="stop-color:#fdbcb4;stop-opacity:1" />
+                                        <stop offset="100%" style="stop-color:#e8a89c;stop-opacity:1" />
+                                    </linearGradient>
+                                </defs>
+                                <circle cx="50" cy="50" r="45" fill="url(#skin2)"/>
+                                <circle cx="50" cy="50" r="45" fill="none" stroke="rgba(0, 212, 255, 0.3)" stroke-width="2"/>
+                                <path d="M 10 35 Q 10 10 50 10 Q 90 10 90 35" fill="#8b4513"/>
+                                <path d="M 15 50 Q 10 70 20 85" fill="#8b4513"/>
+                                <path d="M 85 50 Q 90 70 80 85" fill="#8b4513"/>
+                                <circle cx="38" cy="48" r="4" fill="#ffffff"/>
+                                <circle cx="62" cy="48" r="4" fill="#ffffff"/>
+                                <circle cx="38" cy="48" r="2" fill="#000000"/>
+                                <circle cx="62" cy="48" r="2" fill="#000000"/>
+                                <path d="M 40 62 Q 50 70 60 62" stroke="#c85a54" stroke-width="2" fill="none" stroke-linecap="round"/>
+                            </svg>
+                        </div>
+                        <div class="testimonial-info">
+                            <h4>Emily Rodriguez</h4>
+                            <p class="testimonial-role">Patient</p>
+                        </div>
+                    </div>
+                    <div class="stars">★★★★★</div>
+                    <p class="testimonial-text">"The most professional and caring doctor I've ever met. She explains everything clearly and makes you feel heard. Highly recommended!"</p>
+                </div>
+
+                <div class="testimonial-card glass-card">
+                    <div class="testimonial-header">
+                        <div class="testimonial-avatar-img patient-3">
+                            <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                                <defs>
+                                    <linearGradient id="skin3" x1="0%" y1="0%" x2="0%" y2="100%">
+                                        <stop offset="0%" style="stop-color:#c19a6b;stop-opacity:1" />
+                                        <stop offset="100%" style="stop-color:#8b6914;stop-opacity:1" />
+                                    </linearGradient>
+                                </defs>
+                                <circle cx="50" cy="50" r="45" fill="url(#skin3)"/>
+                                <circle cx="50" cy="50" r="45" fill="none" stroke="rgba(0, 212, 255, 0.3)" stroke-width="2"/>
+                                <path d="M 10 38 Q 10 15 50 15 Q 90 15 90 38" fill="#1a0f0a"/>
+                                <circle cx="38" cy="46" r="4" fill="#ffffff"/>
+                                <circle cx="62" cy="46" r="4" fill="#ffffff"/>
+                                <circle cx="38" cy="46" r="2.5" fill="#000000"/>
+                                <circle cx="62" cy="46" r="2.5" fill="#000000"/>
+                                <path d="M 40 60 Q 50 68 60 60" stroke="#c85a54" stroke-width="2" fill="none" stroke-linecap="round"/>
+                            </svg>
+                        </div>
+                        <div class="testimonial-info">
+                            <h4>David Kim</h4>
+                            <p class="testimonial-role">Patient</p>
+                        </div>
+                    </div>
+                    <div class="stars">★★★★★</div>
+                    <p class="testimonial-text">"Dr. Chen's preventive care strategy has been invaluable. Her innovative approach to health management is exactly what modern medicine needs."</p>
+                </div>
+
+                <div class="testimonial-card glass-card">
+                    <div class="testimonial-header">
+                        <div class="testimonial-avatar-img patient-4">
+                            <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                                <defs>
+                                    <linearGradient id="skin4" x1="0%" y1="0%" x2="0%" y2="100%">
+                                        <stop offset="0%" style="stop-color:#8b4513;stop-opacity:1" />
+                                        <stop offset="100%" style="stop-color:#654321;stop-opacity:1" />
+                                    </linearGradient>
+                                </defs>
+                                <circle cx="50" cy="50" r="45" fill="url(#skin4)"/>
+                                <circle cx="50" cy="50" r="45" fill="none" stroke="rgba(0, 212, 255, 0.3)" stroke-width="2"/>
+                                <path d="M 10 32 Q 10 10 50 10 Q 90 10 90 32" fill="#1a0f0a"/>
+                                <circle cx="50" cy="20" r="12" fill="#1a0f0a"/>
+                                <circle cx="38" cy="48" r="4" fill="#ffffff"/>
+                                <circle cx="62" cy="48" r="4" fill="#ffffff"/>
+                                <circle cx="38" cy="48" r="2" fill="#000000"/>
+                                <circle cx="62" cy="48" r="2" fill="#000000"/>
+                                <path d="M 40 62 Q 50 70 60 62" stroke="#c85a54" stroke-width="2" fill="none" stroke-linecap="round"/>
+                            </svg>
+                        </div>
+                        <div class="testimonial-info">
+                            <h4>Sarah Lee</h4>
+                            <p class="testimonial-role">Patient</p>
+                        </div>
+                    </div>
+                    <div class="stars">★★★★★</div>
+                    <p class="testimonial-text">"Exceptional care combined with cutting-edge technology. Dr. Chen truly cares about her patients' wellbeing and goes above and beyond."</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <h2 class="section-title">Portfolio & Case Studies</h2>
+            
+            <div class="portfolio-grid">
+                <div class="portfolio-card glass-card">
+                    <div class="portfolio-image">
+                        <div class="portfolio-placeholder"><i class="bi bi-bar-chart"></i></div>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3>Advanced Cardiac Imaging</h3>
+                        <p class="portfolio-category">Cardiology</p>
+                        <p class="portfolio-description">Pioneered advanced imaging techniques for early detection of cardiac abnormalities, improving patient outcomes by 45%.</p>
+                        <div class="portfolio-tags">
+                            <span class="tag">Imaging</span>
+                            <span class="tag">Innovation</span>
+                            <span class="tag">Research</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-card glass-card">
+                    <div class="portfolio-image">
+                        <div class="portfolio-placeholder"><i class="bi bi-diagram-3"></i></div>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3>Genetic Risk Assessment</h3>
+                        <p class="portfolio-category">Genetics</p>
+                        <p class="portfolio-description">Developed personalized genetic screening protocols for hereditary cardiac conditions, benefiting over 500 patients.</p>
+                        <div class="portfolio-tags">
+                            <span class="tag">Genetics</span>
+                            <span class="tag">Personalized</span>
+                            <span class="tag">Prevention</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-card glass-card">
+                    <div class="portfolio-image">
+                        <div class="portfolio-placeholder"><i class="bi bi-heart-pulse"></i></div>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3>Preventive Care Program</h3>
+                        <p class="portfolio-category">Prevention</p>
+                        <p class="portfolio-description">Established comprehensive preventive care program reducing hospital readmissions by 60% in first year.</p>
+                        <div class="portfolio-tags">
+                            <span class="tag">Prevention</span>
+                            <span class="tag">Program</span>
+                            <span class="tag">Impact</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-card glass-card">
+                    <div class="portfolio-image">
+                        <div class="portfolio-placeholder"><i class="bi bi-file-text"></i></div>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3>Published Research</h3>
+                        <p class="portfolio-category">Research</p>
+                        <p class="portfolio-description">Published 25+ peer-reviewed articles in leading medical journals on cardiovascular health and innovation.</p>
+                        <div class="portfolio-tags">
+                            <span class="tag">Research</span>
+                            <span class="tag">Published</span>
+                            <span class="tag">Academic</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-card glass-card">
+                    <div class="portfolio-image">
+                        <div class="portfolio-placeholder"><i class="bi bi-person-check"></i></div>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3>Medical Education</h3>
+                        <p class="portfolio-category">Teaching</p>
+                        <p class="portfolio-description">Mentored 50+ medical residents and fellows, with 90% pursuing careers in cardiology and research.</p>
+                        <div class="portfolio-tags">
+                            <span class="tag">Education</span>
+                            <span class="tag">Mentoring</span>
+                            <span class="tag">Leadership</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-card glass-card">
+                    <div class="portfolio-image">
+                        <div class="portfolio-placeholder"><i class="bi bi-trophy"></i></div>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3>Awards & Recognition</h3>
+                        <p class="portfolio-category">Achievements</p>
+                        <p class="portfolio-description">Recipient of multiple prestigious awards including Best Physician Award and Innovation Excellence Recognition.</p>
+                        <div class="portfolio-tags">
+                            <span class="tag">Awards</span>
+                            <span class="tag">Recognition</span>
+                            <span class="tag">Excellence</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="section-title">Professional Experience</h2>
+            
+            <div class="experience-timeline">
+                <div class="timeline-item glass-card">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>Chief Cardiologist</h3>
+                        <p class="timeline-date">2020 - Present</p>
+                        <p class="timeline-organization">Stanford Medical Center</p>
+                        <p class="timeline-description">Leading cardiology department with 50+ physicians, overseeing patient care, research initiatives, and medical education programs.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item glass-card">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>Senior Cardiologist & Researcher</h3>
+                        <p class="timeline-date">2015 - 2020</p>
+                        <p class="timeline-organization">Johns Hopkins Hospital</p>
+                        <p class="timeline-description">Conducted groundbreaking research in cardiac imaging and genetics, published 15+ peer-reviewed articles.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item glass-card">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>Cardiology Fellow</h3>
+                        <p class="timeline-date">2012 - 2015</p>
+                        <p class="timeline-organization">Mayo Clinic</p>
+                        <p class="timeline-description">Completed fellowship in interventional cardiology with focus on advanced diagnostic techniques.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item glass-card">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>Internal Medicine Resident</h3>
+                        <p class="timeline-date">2009 - 2012</p>
+                        <p class="timeline-organization">Johns Hopkins Hospital</p>
+                        <p class="timeline-description">Completed residency in internal medicine with distinction, recognized for clinical excellence.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            
+            <div class="contact-container">
+                <div class="contact-info glass-card">
+                    <h3>Contact Information</h3>
+                    <div class="contact-item">
+                        <span class="contact-icon"><i class="bi bi-geo-alt"></i></span>
+                        <div>
+                            <h4>Office Location</h4>
+                            <p>Medical Tower, Suite 2500<br>San Francisco, CA 94105</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <span class="contact-icon"><i class="bi bi-telephone"></i></span>
+                        <div>
+                            <h4>Phone</h4>
+                            <p>(415) 555-0123</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <span class="contact-icon"><i class="bi bi-envelope"></i></span>
+                        <div>
+                            <h4>Email</h4>
+                            <p>hello@drsarahchen.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <span class="contact-icon"><i class="bi bi-clock"></i></span>
+                        <div>
+                            <h4>Hours</h4>
+                            <p>Mon-Fri: 9:00 AM - 5:00 PM<br>Sat: 10:00 AM - 2:00 PM</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form glass-card">
+                    <h3>Send a Message</h3>
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="contact-name">Name</label>
+                            <input type="text" id="contact-name" name="name" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="contact-email">Email</label>
+                            <input type="email" id="contact-email" name="email" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="contact-subject">Subject</label>
+                            <input type="text" id="contact-subject" name="subject" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="contact-message">Message</label>
+                            <textarea id="contact-message" name="message" rows="5" placeholder="Your message..."></textarea>
+                        </div>
+
+                        <button type="submit" class="submit-button">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Dr. Sarah Chen. All rights reserved.</p>
+            <div class="social-links">
+                <a href="#" class="social-link">LinkedIn</a>
+                <a href="#" class="social-link">Twitter</a>
+                <a href="#" class="social-link">Instagram</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,85 @@
+<svg viewBox="0 0 800 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="skin1" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#f4a460;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#d2691e;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="skin2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#fdbcb4;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e8a89c;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="skin3" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#c19a6b;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#8b6914;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="skin4" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#8b4513;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#654321;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- AVATAR 1: James Mitchell -->
+  <g transform="translate(0, 0)">
+    <circle cx="50" cy="50" r="45" fill="url(#skin1)"/>
+    <circle cx="50" cy="50" r="45" fill="none" stroke="rgba(0, 212, 255, 0.3)" stroke-width="2"/>
+    <!-- Hair -->
+    <path d="M 10 40 Q 10 15 50 15 Q 90 15 90 40" fill="#2c1810"/>
+    <!-- Eyes -->
+    <circle cx="38" cy="45" r="4" fill="#ffffff"/>
+    <circle cx="62" cy="45" r="4" fill="#ffffff"/>
+    <circle cx="38" cy="45" r="2" fill="#000000"/>
+    <circle cx="62" cy="45" r="2" fill="#000000"/>
+    <!-- Smile -->
+    <path d="M 40 60 Q 50 68 60 60" stroke="#c85a54" stroke-width="2" fill="none" stroke-linecap="round"/>
+  </g>
+
+  <!-- AVATAR 2: Emily Rodriguez -->
+  <g transform="translate(200, 0)">
+    <circle cx="50" cy="50" r="45" fill="url(#skin2)"/>
+    <circle cx="50" cy="50" r="45" fill="none" stroke="rgba(0, 212, 255, 0.3)" stroke-width="2"/>
+    <!-- Hair -->
+    <path d="M 10 35 Q 10 10 50 10 Q 90 10 90 35" fill="#8b4513"/>
+    <!-- Long hair sides -->
+    <path d="M 15 50 Q 10 70 20 85" fill="#8b4513"/>
+    <path d="M 85 50 Q 90 70 80 85" fill="#8b4513"/>
+    <!-- Eyes -->
+    <circle cx="38" cy="48" r="4" fill="#ffffff"/>
+    <circle cx="62" cy="48" r="4" fill="#ffffff"/>
+    <circle cx="38" cy="48" r="2" fill="#000000"/>
+    <circle cx="62" cy="48" r="2" fill="#000000"/>
+    <!-- Smile -->
+    <path d="M 40 62 Q 50 70 60 62" stroke="#c85a54" stroke-width="2" fill="none" stroke-linecap="round"/>
+  </g>
+
+  <!-- AVATAR 3: David Kim -->
+  <g transform="translate(400, 0)">
+    <circle cx="50" cy="50" r="45" fill="url(#skin3)"/>
+    <circle cx="50" cy="50" r="45" fill="none" stroke="rgba(0, 212, 255, 0.3)" stroke-width="2"/>
+    <!-- Hair -->
+    <path d="M 10 38 Q 10 15 50 15 Q 90 15 90 38" fill="#1a0f0a"/>
+    <!-- Eyes -->
+    <circle cx="38" cy="46" r="4" fill="#ffffff"/>
+    <circle cx="62" cy="46" r="4" fill="#ffffff"/>
+    <circle cx="38" cy="46" r="2.5" fill="#000000"/>
+    <circle cx="62" cy="46" r="2.5" fill="#000000"/>
+    <!-- Smile -->
+    <path d="M 40 60 Q 50 68 60 60" stroke="#c85a54" stroke-width="2" fill="none" stroke-linecap="round"/>
+  </g>
+
+  <!-- AVATAR 4: Sarah Lee -->
+  <g transform="translate(600, 0)">
+    <circle cx="50" cy="50" r="45" fill="url(#skin4)"/>
+    <circle cx="50" cy="50" r="45" fill="none" stroke="rgba(0, 212, 255, 0.3)" stroke-width="2"/>
+    <!-- Hair -->
+    <path d="M 10 32 Q 10 10 50 10 Q 90 10 90 32" fill="#1a0f0a"/>
+    <!-- Hair bun -->
+    <circle cx="50" cy="20" r="12" fill="#1a0f0a"/>
+    <!-- Eyes -->
+    <circle cx="38" cy="48" r="4" fill="#ffffff"/>
+    <circle cx="62" cy="48" r="4" fill="#ffffff"/>
+    <circle cx="38" cy="48" r="2" fill="#000000"/>
+    <circle cx="62" cy="48" r="2" fill="#000000"/>
+    <!-- Smile -->
+    <path d="M 40 62 Q 50 70 60 62" stroke="#c85a54" stroke-width="2" fill="none" stroke-linecap="round"/>
+  </g>
+</svg>
